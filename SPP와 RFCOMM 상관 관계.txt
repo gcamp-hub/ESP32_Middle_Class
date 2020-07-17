@@ -1,0 +1,10 @@
+==> SPP 프로파일에서 RFCOMM 프로토콜을 가져다 씀,
+
+==> 아래 시스템로그는 ESP32 BT Classic 에서 SPP Disconnect 시킬때
+나오는 로그 임.
+W (75480) BT_RFCOMM: port_rfc_closed RFCOMM connection in state 2 closed: Closed (res: 19)
+I (75490) SPP_ACCEPTOR_DEMO: ESP_SPP_CLOSE_EVT
+W (77490) BT_RFCOMM: rfc_find_lcid_mcb LCID reused LCID:0x41 current:0x0
+W (77490) BT_RFCOMM: RFCOMM_DisconnectInd LCID:0x41
+
+https://smartits.tistory.com/22
